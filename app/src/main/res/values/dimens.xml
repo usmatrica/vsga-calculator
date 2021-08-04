@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thin">2dp</dimen>
+    <dimen name="extra_light">4dp</dimen>
+    <dimen name="light">6dp</dimen>
+    <dimen name="regular">8dp</dimen>
+    <dimen name="semi_medium">10dp</dimen>
+    <dimen name="medium">12dp</dimen>
+    <dimen name="semi_big">14dp</dimen>
+    <dimen name="big">16dp</dimen>
+    <dimen name="extra_big">18dp</dimen>
+    <dimen name="super_big">20dp</dimen>
+    <dimen name="double_big">32dp</dimen>
+    <dimen name="double_extra_big">36dp</dimen>
+    <dimen name="double_super_big">40dp</dimen>
+
+    <dimen name="form_radius">8dp</dimen>
+    <dimen name="button_radius">10dp</dimen>
+</resources>

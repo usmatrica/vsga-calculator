@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Calculator.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="EditTextDefault" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/light</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:paddingLeft">@dimen/semi_medium</item>
+        <item name="android:paddingRight">@dimen/semi_medium</item>
+        <item name="android:paddingTop">@dimen/semi_big</item>
+        <item name="android:paddingBottom">@dimen/semi_big</item>
+        <item name="android:drawablePadding">@dimen/light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:letterSpacing">.05</item>
+    </style>
+
+    <style name="EditTextDefault.SingleLine" parent="EditTextDefault">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ButtonDefault" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/big</item>
+        <item name="android:paddingLeft">@dimen/big</item>
+        <item name="android:paddingRight">@dimen/big</item>
+        <item name="android:paddingTop">@dimen/medium</item>
+        <item name="android:paddingBottom">@dimen/medium</item>
+        <item name="android:background">@drawable/button_fill_rounded_primary</item>
+    </style>
+
+</resources>
